@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "topic-modelling-hotel-reviews-spain"
+version = "0.1.0"
+description = "AboutLDA topic modelling implementation of hotel reviews by pre-covid, covid and post-covid era to see differences in hotel reviews"
+authors = ["Sam <ssamozturk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "topic_modelling_hotel_reviews_spain"}]
+
+[tool.poetry.dependencies]
+python = "3.9.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
